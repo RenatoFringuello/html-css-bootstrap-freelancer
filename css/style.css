@@ -1,19 +1,26 @@
 .my-content{
     border:1px solid black;
-    min-height:50px;
 }
 
-#jumbotron .my-content{
-    height: 500px;
+#jumbotron{
     background-color: aqua;
+}
+#jumbotron .row{
+    padding: 5rem 0;
 }
 
 #portfolio .my-content{
-    height: 200px;
     background-color: red;
+    padding: 7rem;
 }
 
 #about{
     background-color: rebeccapurple;
-    color:white;
+}
+
+footer > :first-child{
+    background-color: darkblue;
+}
+footer > :last-child{
+    background-color: #023900;
 }
