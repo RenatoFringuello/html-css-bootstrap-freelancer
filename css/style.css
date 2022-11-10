@@ -1,0 +1,14 @@
+.my-content{
+    border:1px solid black;
+    min-height:50px;
+}
+
+#jumbotron .my-content{
+    height: 500px;
+    background-color: aqua;
+}
+
+#portfolio .my-content{
+    height: 200px;
+    background-color: red;
+}
