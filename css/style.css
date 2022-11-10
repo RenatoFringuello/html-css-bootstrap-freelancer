@@ -24,3 +24,12 @@ footer > :first-child{
 footer > :last-child{
     background-color: #023900;
 }
+
+.my-social{
+    background-color: beige;
+    margin:0 .5rem;
+}
+
+.flex{
+    display: flex;
+}
