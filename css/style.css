@@ -2,11 +2,9 @@
     border:1px solid black;
 }
 
-#jumbotron{
-    background-color: aqua;
-}
-#jumbotron .row{
-    padding: 5rem 0;
+/* jumbotron */
+.my-bg-green{
+    background-color: #1abc9c;
 }
 
 #portfolio .my-content{
@@ -32,6 +30,13 @@ header nav{
     margin:0 .5rem;
 }
 
-.flex{
-    display: flex;
+/* star */
+.line{
+    width: 40%;
+    border: 2px solid; 
+    border-radius: 2px;   
+}
+.star-container .fa-star{
+    margin:0 .5rem;
+    font-size: 2rem;
 }
