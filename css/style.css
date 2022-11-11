@@ -1,3 +1,7 @@
+a.text-decoration-none{
+    color: #1abc9c;
+}
+
 footer > .footer-top{
     background-color: #3a546d;
 }
@@ -41,4 +45,10 @@ header nav{
 .star-container .fa-star{
     margin:0 .5rem;
     font-size: 2rem;
+}
+    /* social */
+.social-container .btn{
+    width: 50px;
+    height: 50px;
+    margin:0 .5rem;
 }
