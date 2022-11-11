@@ -18,6 +18,19 @@ header nav{
 .my-bg-green{
     background-color: #1abc9c;
 }
+.my-form-control{
+    border:0;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    font-size: .8rem;
+    padding: .2rem;
+}
+.my-form-label{
+    margin-bottom:0
+}
+.my-textarea{
+    height: 8rem;
+}
 
     /* star */
 .line{
