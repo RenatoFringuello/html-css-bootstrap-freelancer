@@ -1,147 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap layout</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap layout</title>
 
-    <!-- bootstrap 5.2.2 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- main css -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <main>
-        <!-- jumbotron -->
-        <section id="jumbotron">
-            <div class="container-md">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="my-content p-5"></div>
+        <!-- bootstrap 5.2.2 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-dark">
+                <div class="container-md ">
+                    <a class="navbar-brand text-uppercase fs-5" href="#">Start Bootstrap</a>
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" aria-current="page" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#contact">Contact</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- portfolio -->
-        <section id="portfolio">
-            <div class="container-md">
-                <div class="row text-center" >
-                    <div class="col-12">
-                        <!-- ho usato 2 volte il py-5 per avere un py-10 che non esiste -->
-                        <div class="row py-5">
-                            <div class="col-12">
-                                <div class="my-heading py-5">Portfolio</div>
-                            </div>
-                        </div>
-                        <div class="row g-4 py-5" id="portfolio">
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="my-content"></div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="my-content"></div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="my-content"></div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="my-content"></div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="my-content"></div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="my-content"></div>
-                            </div>
+            </nav>
+        </header>
+        <main>
+            <!-- jumbotron -->
+            <section id="jumbotron">
+                <div class="container-md">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="my-content p-5"></div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        
+            </section>
 
-        <!-- about -->
-        <section id="about">
-            <div class="container-md">
-                <div class="row text-white">
-                    <div class="col-12">
-                        <div class="row text-center py-2">
-                            <div class="col-12">
-                                <div class="my-heading py-2">About</div>
-                            </div>
-                        </div>
-                        <div class="row g-4 justify-content-center">
-                            <div class="col-9 col-md-6">
-                                <div class="my-content">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. A nisi reprehenderit assumenda veritatis optio delectus perferendis officia odio voluptates aliquid nam neque enim eveniet porro ipsum adipisci, consequatur non. Nobis.
+            <!-- portfolio -->
+            <section id="portfolio">
+                <div class="container-md">
+                    <div class="row text-center" >
+                        <div class="col-12">
+                            <!-- ho usato 2 volte il py-5 per avere un py-10 che non esiste -->
+                            <div class="row py-5">
+                                <div class="col-12">
+                                    <div class="my-heading py-5">Portfolio</div>
                                 </div>
                             </div>
-                            <div class="col-9 col-md-6">
-                                <div class="my-content">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. A nisi reprehenderit assumenda veritatis optio delectus perferendis officia odio voluptates aliquid nam neque enim eveniet porro ipsum adipisci, consequatur non. Nobis.
+                            <div class="row g-4 py-5" id="portfolio">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="my-content"></div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="row text-center py-4">
-                            <div class="col-12">
-                                <div class="my-heading btn btn-info">About</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-    </main>
-
-    <!-- footer -->
-    <footer class="text-white">
-        <section>
-            <div class="container-md">
-                <div class="row text-center py-5 px-3 g-4">
-                    <div class="col-12 col-md-4">
-                        <div class="my-content">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A nisi reprehenderit assumenda veritatis optio delectus perferendis
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="my-content">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="my-content"></div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <!-- socials -->
-                            <div class="col-12">
-                                <div class="flex justify-content-center">
-                                    <div class="my-content my-social p-3"></div>
-                                    <div class="my-content my-social p-3"></div>
-                                    <div class="my-content my-social p-3"></div>
-                                    <div class="my-content my-social p-3"></div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="my-content"></div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="my-content"></div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="my-content"></div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="my-content"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
-                        <div class="my-content">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A nisi reprehenderit assumenda veritatis optio delectus perferendis officia odio voluptates aliquid nam neque enim 
+                </div>
+            </section>
+            
+
+            <!-- about -->
+            <section id="about">
+                <div class="container-md">
+                    <div class="row text-white">
+                        <div class="col-12">
+                            <div class="row text-center py-2">
+                                <div class="col-12">
+                                    <div class="my-heading py-2">About</div>
+                                </div>
+                            </div>
+                            <div class="row g-4 justify-content-center">
+                                <div class="col-9 col-md-6">
+                                    <div class="my-content">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. A nisi reprehenderit assumenda veritatis optio delectus perferendis officia odio voluptates aliquid nam neque enim eveniet porro ipsum adipisci, consequatur non. Nobis.
+                                    </div>
+                                </div>
+                                <div class="col-9 col-md-6">
+                                    <div class="my-content">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. A nisi reprehenderit assumenda veritatis optio delectus perferendis officia odio voluptates aliquid nam neque enim eveniet porro ipsum adipisci, consequatur non. Nobis.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row text-center py-4">
+                                <div class="col-12">
+                                    <div class="my-heading btn btn-info">About</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section>
-            <div class="container-md">
-                <div class="row py-5 text-center">
-                    <div class="col-12">
-                        Lorem ipsum dolor sit.
+            </section>
+            
+        </main>
+
+        <!-- footer -->
+        <footer class="text-white" id="contact">
+            <section class="footer-top">
+                <div class="container-md">
+                    <div class="row text-center py-5 px-3 g-4">
+                        <div class="col-12 col-md-4">
+                            <div class="my-content">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A nisi reprehenderit assumenda veritatis optio delectus perferendis
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="my-content">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <!-- socials -->
+                                <div class="col-12">
+                                    <div class="flex justify-content-center">
+                                        <div class="my-content my-social p-3"></div>
+                                        <div class="my-content my-social p-3"></div>
+                                        <div class="my-content my-social p-3"></div>
+                                        <div class="my-content my-social p-3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="my-content">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A nisi reprehenderit assumenda veritatis optio delectus perferendis officia odio voluptates aliquid nam neque enim 
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </footer>
-</body>
+            </section>
+            <section class="footer-bottom">
+                <div class="container-md">
+                    <div class="row py-5 text-center">
+                        <div class="col-12">
+                            Lorem ipsum dolor sit.
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+        <!-- script bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>
