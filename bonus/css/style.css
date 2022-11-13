@@ -1,0 +1,71 @@
+a.text-decoration-none{
+    color: #1abc9c;
+}
+
+/* main */
+    /* #portfolio */
+#portfolio .my-grayscale{
+    cursor: pointer;
+    filter: grayscale(.8);
+    -webkit-filter: grayscale(.8);
+    transition: 1s;
+}
+#portfolio .my-grayscale:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+
+footer > .footer-top{
+    background-color: #3a546d;
+}
+footer > .footer-bottom,
+header nav{
+    background-color: #2c3e50;
+    font-size: .8rem;
+}
+
+/* my class */
+.my-fs-1rem{
+    font-size: 1rem;
+}
+.my-title{
+    font-size: 4.5vh;
+}
+.my-social{
+    background-color: beige;
+    margin:0 .5rem;
+}
+.my-bg-green{
+    background-color: #1abc9c;
+}
+.my-form-control{
+    border:0;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    font-size: .8rem;
+    padding: .2rem;
+}
+.my-form-label{
+    margin-bottom:0
+}
+.my-textarea{
+    height: 8rem;
+}
+
+    /* star */
+.line{
+    width: 40%;
+    border: 2px solid; 
+    border-radius: 2px;   
+}
+.star-container .fa-star{
+    margin:0 .5rem;
+    font-size: 2rem;
+}
+    /* social */
+.social-container .btn{
+    width: 50px;
+    height: 50px;
+    margin:0 .5rem;
+}
